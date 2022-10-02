@@ -43,21 +43,24 @@ body {
 
 #center-text {
     font-size: 18px;
-
+    padding: 40px;
 }
 
 #header-bar {
     display: flex;
     text-align: left;
     position: sticky;
-    top: 0;
-    width: 100%;
+    align-items: center;
     padding: 20px;
+    top: 0;
     margin: 0px;
     background-color: var(--background-color);
 }
 
-#header-bar-image {}
+#header-bar-image {
+    width: 32px;
+    height: 32px;
+}
 
 #header-bar-image:hover {
     filter: brightness(25%) sepia(100%) saturate(10000%);
@@ -107,7 +110,7 @@ body {
 
 @media screen and (max-width: 600px) {
     #main-container {
-        display: contents
+        display: unset
     }
 
     #side-bar {
