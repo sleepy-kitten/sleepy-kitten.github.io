@@ -91,6 +91,7 @@ body {
 
 .side-bar-element-img {
     padding: 16px;
+    width: 32px;
 }
 
 #side-bar-discord-element:hover>#side-bar-discord-icon {
@@ -100,9 +101,11 @@ body {
 #side-bar-steam-element:hover>#side-bar-steam-icon {
     filter: brightness(25%) sepia(100%) saturate(10000%) hue-rotate(220deg) brightness(100%) saturate(30%);
 }
-
 #side-bar-battlenet-element:hover>#side-bar-battlenet-icon {
     filter: brightness(25%) sepia(100%) saturate(10000%) hue-rotate(220deg) brightness(170%) saturate(60%);
+}
+#side-bar-lastfm-element:hover>#side-bar-lastfm-icon {
+    filter: brightness(25%) sepia(100%) saturate(10000%) brightness(250%) saturate(60%) brightness(120%);
 }
 
 
