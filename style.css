@@ -1,0 +1,116 @@
+/* ignore shitty css pls thank :) */
+
+:root {
+    --background-color: #000000;
+    --primary-color: #031016;
+    --secondary-color: #0A3A40;
+    --tertiary-color: #0F5959;
+    --accent-color: #1D7373;
+}
+
+@font-face {
+    font-family: scientifica;
+    src: url(scientifica.ttf)
+}
+
+body {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: scientifica;
+    margin: 0;
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+}
+
+#main-container {
+    display: flex;
+    height: inherit;
+}
+
+#center {
+    text-align: center;
+    width: 100%;
+}
+
+#center-header {
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    width: 100%;
+}
+
+#center-text {
+    font-size: 18px;
+
+}
+
+#header-bar {
+    display: flex;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    background-color: var(--background-color);
+}
+
+#header-bar-image {}
+
+#header-bar-image:hover {
+    filter: brightness(25%) sepia(100%) saturate(10000%);
+
+}
+
+#side-bar {
+    background-color: var(--secondary-color);
+    width: fit-content;
+    height: fit-content;
+}
+
+#side-bar-header {
+    font-size: 32px;
+    padding: 40px;
+    text-align: center;
+}
+
+.side-bar-element {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
+    background-color: #000000;
+    color: white;
+    height: auto;
+}
+
+.side-bar-element-img {
+    padding: 16px;
+}
+
+#side-bar-discord-element:hover>#side-bar-discord-icon {
+    filter: brightness(25%) sepia(100%) saturate(10000%) hue-rotate(250deg) brightness(160%);
+}
+
+#side-bar-steam-element:hover>#side-bar-steam-icon {
+    filter: brightness(25%) sepia(100%) saturate(10000%) hue-rotate(220deg) brightness(100%) saturate(30%);
+}
+
+#side-bar-battlenet-element:hover>#side-bar-battlenet-icon {
+    filter: brightness(25%) sepia(100%) saturate(10000%) hue-rotate(220deg) brightness(170%) saturate(60%);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    #main-container {
+        display: contents
+    }
+
+    #side-bar {
+        width: 100%;
+    }
+}
