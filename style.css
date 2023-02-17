@@ -6,6 +6,7 @@
     --secondary-color: #0A3A40;
     --tertiary-color: #0F5959;
     --accent-color: #1D7373;
+    color: var(--secondary-color);
 }
 
 @font-face {
@@ -101,9 +102,11 @@ body {
 #side-bar-steam-element:hover>#side-bar-steam-icon {
     filter: brightness(25%) sepia(100%) saturate(10000%) hue-rotate(220deg) brightness(100%) saturate(30%);
 }
+
 #side-bar-battlenet-element:hover>#side-bar-battlenet-icon {
     filter: brightness(25%) sepia(100%) saturate(10000%) hue-rotate(220deg) brightness(170%) saturate(60%);
 }
+
 #side-bar-lastfm-element:hover>#side-bar-lastfm-icon {
     filter: brightness(25%) sepia(100%) saturate(10000%) brightness(250%) saturate(60%) brightness(120%);
 }
