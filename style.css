@@ -6,7 +6,6 @@
     --secondary-color: #0A3A40;
     --tertiary-color: #0F5959;
     --accent-color: #1D7373;
-    color: var(--secondary-color);
 }
 
 @font-face {
@@ -19,7 +18,7 @@ body {
     color: white;
     font-family: scientifica;
     margin: 0;
-    height: fit-content;
+    height: auto;
     width: 100%;
     position: absolute;
 }
